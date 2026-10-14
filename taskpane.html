@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raise PO</title>
+  <link rel="stylesheet" href="taskpane.css">
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="parsers.js"></script>
+  <script src="taskpane.js"></script>
+</head>
+<body>
+  <header>
+    <div class="t">Raise PO</div>
+    <div class="st" id="badge">Reading email…</div>
+  </header>
+
+  <main>
+    <div id="warn" class="warn hidden"></div>
+
+    <section class="card">
+      <h2><span class="n">1</span>Request</h2>
+      <label>Supplier<input id="supplier"></label>
+      <div class="row">
+        <label>Supplier ref<input id="ref"></label>
+        <label>Email total<input id="amount"></label>
+      </div>
+      <div class="row">
+        <label>Job<input id="job"></label>
+        <label>COS<input id="cos"></label>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">2</span>Quote / invoice PDF</h2>
+      <select id="pdfSel"></select>
+      <div class="small" id="pdfStatus"></div>
+      <a id="dl" class="link hidden">Save this PDF</a>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">3</span>Lines</h2>
+      <div id="lines" class="small">No lines yet.</div>
+      <div class="tot" id="tot"></div>
+    </section>
+
+    <button id="open" class="go">Open in Nexvia</button>
+    <button id="copyLink" class="ghost wide">Copy Nexvia link</button>
+    <div class="small center" id="status"></div>
+
+    <details class="card">
+      <summary>Settings</summary>
+      <label>Nexvia purchase orders page<input id="nexviaUrl"></label>
+      <button id="saveSettings" class="ghost">Save</button>
+    </details>
+  </main>
+</body>
+</html>
