@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Raise PO - Outlook add-in manifest
-  BEFORE INSTALLING: replace every  https://github.com/matthewlakerdis-dev/raise-po-addin
-  with your real GitHub Pages address (see README.md).
--->
+
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
