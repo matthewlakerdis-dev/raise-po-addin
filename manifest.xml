@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Raise PO - Outlook add-in manifest
-  BEFORE INSTALLING: replace every  https://REPLACE-ME.github.io/raise-po-addin
+  BEFORE INSTALLING: replace every  https://github.com/matthewlakerdis-dev/raise-po-addin
   with your real GitHub Pages address (see README.md).
 -->
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
@@ -15,9 +15,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Raise PO"/>
   <Description DefaultValue="Reads a PO request email and its quote or invoice PDF, then starts the purchase order in Nexvia."/>
-  <IconUrl DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/taskpane.html"/>
+  <IconUrl DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/taskpane.html"/>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
@@ -29,7 +29,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/taskpane.html"/>
+        <SourceLocation DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -79,13 +79,13 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16" DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/assets/icon-16.png"/>
-          <bt:Image id="Icon.32" DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/assets/icon-32.png"/>
-          <bt:Image id="Icon.80" DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/assets/icon-80.png"/>
+          <bt:Image id="Icon.16" DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/assets/icon-16.png"/>
+          <bt:Image id="Icon.32" DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/assets/icon-32.png"/>
+          <bt:Image id="Icon.80" DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Commands.Url" DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/commands.html"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://REPLACE-ME.github.io/raise-po-addin/taskpane.html"/>
+          <bt:Url id="Commands.Url" DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/commands.html"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/matthewlakerdis-dev/raise-po-addin/taskpane.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="Lennox"/>
